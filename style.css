@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: "Be Vietnam Pro";
+    font-family: "Be Vietnam Pro", sans-serif;
     color: var(--darkGrayishBlue);
     margin: 0px;
     padding: 0px;
@@ -24,8 +24,14 @@ body {
     max-width: 100vw;
 }
 
-.mainHeadingText {
+.topDivText {
     color: var(--veryDarkBlue);
+    width: 45%;
+    margin: 0px;
+    margin-right: 10%;
+}
+
+.mainHeadingText {
     font-size: 3.5rem;
 }
 
@@ -35,19 +41,16 @@ content {
     left: 10vw;
 }
 
-testimonials {
-
-}
-
-getStartedBanner {
-    background-color: var(--brightRed);
-}
+/* testimonials { }*/
 
 footer {
     background-color: var(--veryDarkBlue);
-    position: relative;
     height: 25rem;
     width: 100vw;
     position: relative;
     top: calc(100vh - 12.5rem);
+}
+
+.simplifyBanner {
+    
 }
