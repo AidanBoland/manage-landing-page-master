@@ -24,33 +24,55 @@ body {
     max-width: 100vw;
 }
 
-.topDivText {
-    color: var(--veryDarkBlue);
-    width: 45%;
-    margin: 0px;
-    margin-right: 10%;
-}
-
-.mainHeadingText {
-    font-size: 3.5rem;
-}
-
 content {
     width: 80vw;
     position: relative;
     left: 10vw;
 }
 
+.topDivText {
+    color: var(--veryDarkBlue);
+    width: 40%;
+    margin: 0px;
+    /* margin-right: %; */
+}
+
+.mainHeadingText {
+    font-size: 3.5rem;
+}
+
+.topDivImage {
+    position: relative;
+    width: 35%;
+    top: 0px;
+    left: 45%;
+    margin: 0%;
+}
+
 /* testimonials { }*/
 
 footer {
     background-color: var(--veryDarkBlue);
-    height: 25rem;
+    height: 40rem;
     width: 100vw;
     position: relative;
-    top: calc(100vh - 12.5rem);
+    top: calc(100vh - 20rem);
 }
 
 .simplifyBanner {
-    
+    background: url(./images/bg-simplify-section-desktop.svg) no-repeat center var(--brightRed);
+    color: white;
+    width: 100%;
+    height: 15rem;
+    position: relative;
+    top: 0px;
+    font-size: 2.75rem;
+}
+
+.simplifyText {
+    position: relative;
+    width: 35%;
+    left: 10vw;
+    top: 50%;
+    transform: translateY(-50%);
 }
